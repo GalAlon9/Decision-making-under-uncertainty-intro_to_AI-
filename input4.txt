@@ -1,0 +1,16 @@
+#V 7    ; number of vertices n in graph (from 1 to n)
+
+#E1 1 2 W5   ; 
+#E2 2 3 W10   ;
+#E3 3 4 W5   ;
+#E4 4 6 W5   ;
+#E5 1 7 W10  ;
+#E6 5 6 W100  ;
+#E7 7 5 W10  ;
+
+#B 4 0.5     ; Blocakge at vertex 4 with probability 0.5
+#B 3 0.5     ; Blocakge at vertex 3 with probability 0.5
+
+
+#Start 1
+#Target 6

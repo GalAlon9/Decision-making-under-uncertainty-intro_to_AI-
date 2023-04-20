@@ -1,0 +1,13 @@
+#V 5    ; number of vertices n in graph (from 1 to n)
+
+#E1 1 2 W3   ; Edge from vertex 1 to vertex 2, weight 3
+#E2 2 3 W2   ; Edge from vertex 2 to vertex 3, weight 2
+#E3 3 4 W3   ; Edge from vertex 3 to vertex 4, weight 3, probability of blockage 0.3
+#E4 4 5 W1   ; Edge from vertex 4 to vertex 5, weight 1
+#E5 2 4 W4   ; Edge from vertex 2 to vertex 4, weight 4
+
+#B 2 0.3     ; Blocakge at vertex 2 with probability 0.3
+#B 3 0.8     ; Blockage at vertex 3 with probability 0.8
+
+#Start 1
+#Target 5
